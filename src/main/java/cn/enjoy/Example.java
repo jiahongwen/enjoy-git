@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
     @RequestMapping("/")
     String home(){
-        return "Hello Git";
+        return "Hello Git V1.0";
     }
     public static void main(String[] args) {
         SpringApplication.run(Example.class, args);
