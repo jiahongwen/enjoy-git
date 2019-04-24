@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Example {
     @RequestMapping("/")
     String home(){
+        System.out.println("你好，我要合并");
         return "Hello Git V1.0";
     }
 }
