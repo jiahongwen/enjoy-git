@@ -13,4 +13,8 @@ public class Example {
         System.out.println("你好，我要合并");
         return "Hello Git V1.0";
     }
+    @RequestMapping("/add")
+    String add(){
+        return "i am add";
+    }
 }
