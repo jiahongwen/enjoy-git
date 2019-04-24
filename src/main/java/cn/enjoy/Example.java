@@ -15,6 +15,7 @@ public class Example {
     }
     @RequestMapping("/add")
     String add(){
+        System.out.println("我也插入一条数据");
         return "i am add";
     }
 }
